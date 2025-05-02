@@ -210,3 +210,80 @@ body{
     text-align: center;
     font-size: 20px;
   }
+  .container_react{
+    width: 100%;
+    height: 1000px;
+    padding: 180px;
+    
+  }
+  .react_div{
+    margin: 20px;
+    padding: 30px;
+    box-shadow: 0px 5px 5px rgb(218, 218, 218);
+    border-radius: 20px;
+    border: 1.0px solid #767676;
+  }
+
+
+  .container_need{
+    text-align: center;
+    padding: 100px;
+  }
+  .need_img{
+    background-image: url(img/handshake.jpg);
+    height: 300px;
+    border-radius: 10px;
+    padding: 50px;
+  }
+  .need h1{text-align: center;
+    color: #FFFFFF;
+  }
+  .need-pera{
+    color: #FFF;
+    padding: 30px;
+  }
+  .need input{
+   min-width: 600px;
+   box-sizing: border-box;
+   border-radius: 8px;
+   background: rgb(255,255, 255);
+   padding: 20px;
+   font-weight: 600px;
+  }
+  .need label{ 
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255,255, 255);
+    font-size: 20px;
+    padding: 16px;
+    font-weight: 600;
+    margin: 10px;
+  }
+  #section-footer{
+    width: 100%;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33,0.03);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-content{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  .footer-cdn{
+    margin: 50px;
+  }
+  .footer-cdn ul{
+    display: flex;
+    font-size: 35px;
+    color: #009DFF;
+    list-style-type: none;
+  }
+  .footer-cdn ul li i{
+    margin: 5px;
+  }
