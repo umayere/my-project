@@ -76,7 +76,7 @@ body{
   .main .main_h1{
     display: flex;
     justify-content: center;
-    padding-top: 25px;
+    padding-top: 23px;
   }
   .main .pera_1{
     padding: 35px;
@@ -105,7 +105,7 @@ body{
 }
 .div img{
   float: right;
-  width: 30%;
+  width: 25%;
   padding: 5px;
 }
 
