@@ -6,6 +6,7 @@
 }
 body{
     background: #FFFFFF;
+    scroll-behavior: smooth;
 }
 
 .container-header{
