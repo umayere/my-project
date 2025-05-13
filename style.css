@@ -10,27 +10,35 @@ body{
 
 .container-header{
     width: 100%;
-    height: 140px;
+    height: 110px;
     background-color: #FFFFFF;
+  
 }
 .container-header .header{
     width: 100%;
-    padding: 40px 100px;
+    padding: 30px 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
+   color: rgb(234, 152, 0);
 }
 
 .container-header .header button{
     width: 20%;
     height: 60px;
     font-size: 20px;
+    color: wheat;
+    background-color: #000000;
     font-family: serif;
     font-weight: bold;
     border-radius: 10px;
     border-color: rgb(43, 42, 42);
+    transform: rotateX('angle');
 }
+ .header button:hover{
+  background: #494848;
+  transition: 1s;
+ }
 .container_menu{
     background-image: url(img/top-6-programming-languages-for-custom-software-development_1.png);
     width: 100%;
@@ -213,7 +221,7 @@ body{
   .container_react{
     width: 100%;
     height: 1000px;
-    padding: 180px;
+    padding: 130px;
     
   }
   .react_div{
@@ -290,67 +298,90 @@ body{
 
     
   
-  @media (max-width: 599px) {
+  @media (min-width:300px) and (max-width:600px) {
     .container-header {
-      height: auto;
+      height: 70px;
     }
   
     .container-header .header {
-      padding: 20px;
+     padding: 0;
+     margin: 0;
+     padding: 15px;
     }
   
     .container-header .header button {
-      width: 30%;
+      width: 35%;
       height: 40px;
-      font-size: 16px;
+      font-size: 10px;
     }
-  
+  .container_menu{
+    height: 300px;
+   text-align: center; 
+}
     .menu {
-      padding: 20px;
-      text-align: center;
+      padding: 0;
+      margin: 0;
     }
   
     .menu img {
-      padding: 10px;
+      padding: 0;
+      margin: 0;
+      width: 80px;
+      height: 90px;
+      object-fit: cover;
     }
   
     .menu h1, .menu p {
-      margin-left: 0;
-      font-size: 24px;
+      font-size: 10px;
       padding: 10px;
+      margin-left: 10px;
     }
   
     .menu button {
       margin-left: 0;
-      width: 50%;
+      width: 60%;
       height: 45px;
       font-size: 16px;
-      margin-top: 20px;
     }
   
+
     .container_main {
-      padding: 20px;
+      padding: 5px;
+      width: 100%;
+      height: 270svh;
     }
-  
+    
+  /*  */
+
+
     .main {
       padding: 20px;
       height: auto;
-      margin: 30px;
+      margin: 15px;
     }
   
     .main .main_h1 {
-      font-size: 24px;
-      padding: 5px;
+      font-size: 20px;
+      padding: 4px;
+      gap: 5px;
     }
   
     .main .pera_1 {
-      font-size: 16px;
+      font-size: 13px;
       padding: 5px;
+      
+    }
+    .div h1{
+      font-size: 19px;
+    }
+    .div p{
+      padding: 5px;
+      font-size: 13px;
     }
   
     .main_div {
-      height: 600px;
-      padding: 20px;
+      height: 440px;
+      padding: 10px;
       margin: 5px 0;
     }
   
@@ -364,32 +395,40 @@ body{
     .div img {
       float: none;
       width: 100%;
+      height: 240px;
+      object-fit: cover;
     }
-  
-    .main_2 {
-      margin-top: 300px;
+  /*  */
+  .container_Youtub {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 500px;
     }
-  
+
+  .main_2{
+   padding: 0;
+   margin: 0;
+  }
     .main_2 h1 {
-      font-size: 28px;
-    }
-  
-    .container_Youtub {
-      
+      font-size: 20px;
     }
   
     .youtub_main iframe {
       height: 300px;
-      padding: 10px;
+      padding: 20px;
       width: 100%;
     }
-  .container_card_h2 p{
-    text-align: center;
-    
-  }
+
+    .container_card_h2{
+      height: 150px;
+      width: 100%;
+      text-align: center;
+    }
+ 
     .container_card {
       flex-direction: column;
-      padding: 25px;
+      padding: 15px;
     }
   
     .card-1, .card-2, .card-3 {
@@ -398,16 +437,18 @@ body{
       margin-bottom: 20px;
     }
   
+
     .container_react {
-      padding: 20px;
+      padding: 15px;
       height: auto;
     }
+   /*  */
+
 
     .container_need{
-   
-      padding: 10px;
+      padding: 5px;
     }
-  
+ 
     .need_img {
       height: 250px;
       width: 100%;
@@ -416,24 +457,27 @@ body{
   
     .need input {
       min-width: 20%;
-    
+      height: 30px;
+      margin: 20px;
     }
   
     .need label {
-      font-size: 18px;
-      margin-top: 20px;
+    font-size: 15px;
+    width: 20%;
+    height: 20px;
     }
     .need h1{
       font-size: 20px;
-     
     }
   .need-pera{
-   font-size: 14px;
-   padding: 10px;
+   font-size: 10px;
+   padding: 5px;
   }
+
+  /*  */
     #section-footer {
       flex-direction: column;
-      height: auto;
+      height: 50px;
       padding: 20px;
       text-align: center;
     }
@@ -445,11 +489,10 @@ body{
   
   }
 
-  @media (min-width:599px) and (max-width:1020px){
+  @media (min-width:600px) and (max-width:1024px){
     .container-header{
       width: 100%;
-      height: 100px;
-      background-color: #FFFFFF;
+      height: 90px;
   }
   .container-header .header{
       width: 100%;
@@ -466,7 +509,7 @@ body{
     background-image: url(img/top-6-programming-languages-for-custom-software-development_1.png);
     text-align: center;
     object-fit:contain;
-    
+    height: 500px;
 }
 .menu img{
   margin-left: 0;
@@ -480,7 +523,7 @@ body{
     margin-left: 0;
   }
   .menu button{
-    width: 35%;
+    width: 30%;
     height: 65px;
     border-radius: 10px;
     background-color: black;
@@ -519,10 +562,10 @@ body{
     box-shadow: 0px 2px 2px rgb(218, 218, 218);
     background: #FFFFFF;
     width: 95%;
-    height: 320px;
-    padding: 20px;
+    height: 330px;
+    padding: 10px;
     border-radius: 10px;
-    margin: 25px;
+    margin: 20px;
   }
   
   
@@ -536,7 +579,6 @@ body{
 .div img{
   float: right;
   width: 30%;
-  
 }
 
 .container_Youtub{
@@ -565,8 +607,8 @@ body{
   font-size: 40px;
 }
 
-.container_h3{
-  margin-top: 100px;
+.container_h3 {
+   padding-top: 100px;
 }
 
 
@@ -621,10 +663,6 @@ body{
   border-radius: 20px;
   border: 1.0px solid #767676;
 }
-
-
-
-
 
   .need input {
     min-width: 70%;
